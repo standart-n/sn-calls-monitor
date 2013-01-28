@@ -1,0 +1,12 @@
+#main {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+#signin-error {
+  display: none;
+}
+
+#signin-info {
+  display: none;
+}
