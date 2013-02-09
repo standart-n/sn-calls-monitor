@@ -40,7 +40,7 @@
 								</td>
 								<td>
 									{if (($key.phone_color=='info') && ($key.user!='-'))}
-										<a href='../calls/?src={$key.phone}&dst={$key.phone}' target='_blank'
+										<a href='../calls/index.php?src={$key.phone}&dst={$key.phone}' target='_blank'
 									{/if}
 									<small>{if ($key.user!='-')}{$key.user}{/if}</small>
 									{if (($key.phone_color=='info') && ($key.user!='-'))}
